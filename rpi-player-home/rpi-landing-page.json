@@ -1,0 +1,11 @@
+{
+  "author_full_name": "Dmitry Druganov",
+  "author_email": "drud@drud.cz",
+  "github_username": "drudv",
+  "dist_name": "Mopidy-RPI-Player-Home",
+  "repo_name": "rpi_player_home",
+  "ext_name": "rpi_player_home",
+  "short_description": "Mopidy extension for RPI Player welcome page",
+  "year": "2019",
+  "version": "0.1.0"
+}

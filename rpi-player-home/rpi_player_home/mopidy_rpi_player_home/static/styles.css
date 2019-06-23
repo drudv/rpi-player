@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+body {
+  background-color: #454545;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+table {
+  border-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+td {
+  padding: 10px;
+  background-color: #303030;
+}
+
+.title-cell {
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn.btn--primary {
+  background-color: #1ed760;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ title|e }}</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css" />
+  </head>
+  <body>
+    <h1>{{ title|e }}</h1>
+    <table>
+      <tr>
+        <td class="title-cell">CPU temperature</td>
+        <td>{{ cpu_temp|e }}</td>
+      </tr>
+      <tr>
+        <td class="title-cell">WAN IP address</td>
+        <td>{{ wan_ip_addr|e }}</td>
+      </tr>
+      <tr>
+        <td class="title-cell">LAN IP address</td>
+        <td>{{ lan_ip_addr|e }}</td>
+      </tr>
+      <tr>
+        <td class="title-cell">Memory</td>
+        <td>{{ mem|e }}</td>
+      </tr>
+      <tr>
+        <td class="title-cell">Swap</td>
+        <td>{{ swap|e }}</td>
+      </tr>
+    </table>
+
+    <div class="actions">
+      <a class="btn btn--primary" href="/musicbox_webclient">Player</a>
+    </div>
+  </body>
+</html>
